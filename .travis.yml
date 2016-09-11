@@ -8,3 +8,4 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+before_script: chmod 0777 ./node_modules/.bin/mocha
