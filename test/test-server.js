@@ -31,6 +31,7 @@ describe('Shopping List', function() {
 	   res.should.be.json;
 	   res.body.should.be.a('array');
 	   res.body.should.have.length(3);
+	  console.log(res.body);
 	   res.body[0].should.be.a('object');
 	   res.body[0].should.have.property('name');
            res.body[0].name.should.be.a('string');
