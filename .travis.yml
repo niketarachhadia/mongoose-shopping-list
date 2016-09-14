@@ -10,7 +10,7 @@ addons:
     - mongodb-org-server
 deploy:
   provider: heroku
-    api_key:
-      secure: b9f2066e-361c-474c-a1e2-06ebf54eaaf2
-    app: afternoon-lake-98264
+  api_key:
+    secure: b9f2066e-361c-474c-a1e2-06ebf54eaaf2
+  app: afternoon-lake-98264
  
